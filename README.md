@@ -13,6 +13,9 @@ This repository contains 2 separate projects for Objective-C and Swift languages
 ### Changelog
 - [14/01/2019] Initial versions are added. 
 
+### Known Issues
+Please be aware that this application is only built for test purposes and not live on App Store, therefore you may not receive ads from some partners.
+
 ### Contribution
 Pull requests are welcome! For more information please contact us support@appmediation.com
 
