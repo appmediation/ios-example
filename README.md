@@ -17,7 +17,10 @@ This repository contains 2 separate projects for Objective-C and Swift languages
 Please be aware that this application is only built for test purposes and not live on App Store, therefore you may not receive ads from some partners.
 
 ### Contribution
-Pull requests are welcome! For more information please contact us support@appmediation.com
+Pull requests are welcome! If you feel like there is a room for improvement, please let us know!
+
+### Contact
+For more information please contact us at support@appmediation.com
 
 
 
