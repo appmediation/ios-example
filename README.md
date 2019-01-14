@@ -14,7 +14,7 @@ This repository contains 2 separate projects for Objective-C and Swift languages
 - [14/01/2019] Initial versions are added. 
 
 ### Known Issues
-Please be aware that this application is only built for test purposes and not live on App Store, therefore you may not receive ads from some partners.
+Please be aware that this application is only built for test purposes and not live on App Store, therefore you may not receive ads from some partners if you disable test mode.
 
 ### Contribution
 Pull requests are welcome! If you feel like there is a room for improvement, please let us know!
