@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AppmediationExample' do
+  pod 'Appmediation'
+
+  # Example for configuration
+  # pod 'Appmediation/AdMobAdapter'
+  # pod 'Appmediation/AdColonyAdapter'
+  # just add all adapters you want!
+end

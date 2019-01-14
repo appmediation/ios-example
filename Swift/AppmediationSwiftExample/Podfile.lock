@@ -1,0 +1,88 @@
+PODS:
+  - Appmediation (2.0.0):
+    - Appmediation/Complete (= 2.0.0)
+  - Appmediation/AdColonyAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/AdMobAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/AppLovinAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/BaiduAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/Banner (2.0.0):
+    - Appmediation/AdMobAdapter
+    - Appmediation/AppLovinAdapter
+    - Appmediation/BaiduAdapter
+    - Appmediation/FacebookAdapter
+    - Appmediation/InMobiAdapter
+    - Appmediation/MobvistaAdapter
+    - Appmediation/MyTargetAdapter
+    - Appmediation/StartAppAdapter
+  - Appmediation/ChartboostAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/Complete (2.0.0):
+    - Appmediation/Banner
+    - Appmediation/Core
+    - Appmediation/Interstitial
+    - Appmediation/Rewarded
+  - Appmediation/Core (2.0.0)
+  - Appmediation/FacebookAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/InMobiAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/Interstitial (2.0.0):
+    - Appmediation/AdColonyAdapter
+    - Appmediation/AdMobAdapter
+    - Appmediation/AppLovinAdapter
+    - Appmediation/BaiduAdapter
+    - Appmediation/ChartboostAdapter
+    - Appmediation/FacebookAdapter
+    - Appmediation/InMobiAdapter
+    - Appmediation/IronSourceAdapter
+    - Appmediation/MobvistaAdapter
+    - Appmediation/MyTargetAdapter
+    - Appmediation/StartAppAdapter
+    - Appmediation/TapjoyAdapter
+    - Appmediation/UnityAdsAdapter
+    - Appmediation/VungleAdapter
+  - Appmediation/IronSourceAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/MobvistaAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/MyTargetAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/Rewarded (2.0.0):
+    - Appmediation/AdColonyAdapter
+    - Appmediation/AdMobAdapter
+    - Appmediation/AppLovinAdapter
+    - Appmediation/ChartboostAdapter
+    - Appmediation/InMobiAdapter
+    - Appmediation/IronSourceAdapter
+    - Appmediation/MobvistaAdapter
+    - Appmediation/MyTargetAdapter
+    - Appmediation/StartAppAdapter
+    - Appmediation/TapjoyAdapter
+    - Appmediation/UnityAdsAdapter
+    - Appmediation/VungleAdapter
+  - Appmediation/StartAppAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/TapjoyAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/UnityAdsAdapter (2.0.0):
+    - Appmediation/Core
+  - Appmediation/VungleAdapter (2.0.0):
+    - Appmediation/Core
+
+DEPENDENCIES:
+  - Appmediation
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Appmediation
+
+SPEC CHECKSUMS:
+  Appmediation: c6917a6f2a09f4d89d58268646a2de1b8f500f5f
+
+PODFILE CHECKSUM: e9d7b9403ed8fa4889f00a3d36c58c53801aea41
+
+COCOAPODS: 1.5.3
