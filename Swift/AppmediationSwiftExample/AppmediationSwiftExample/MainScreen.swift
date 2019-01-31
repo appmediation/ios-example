@@ -12,6 +12,7 @@ class MainScreen: UITableViewController {
     
     enum Destination {
         case Banner
+        case CustomBanner
         case Interstitial
         case Rewarded
     }
@@ -29,15 +30,18 @@ class MainScreen: UITableViewController {
         switch indexPath.row {
         case 0:
             navigate(to: .Banner)
-            break;
+            break
         case 1:
-            navigate(to: .Interstitial)
-            break;
+            navigate(to: .CustomBanner)
+            break
         case 2:
+            navigate(to: .Interstitial)
+            break
+        case 3:
             navigate(to: .Rewarded)
-            break;
+            break
         default:
-            break;
+            break
         }
     }
     
@@ -48,13 +52,16 @@ class MainScreen: UITableViewController {
         switch destination {
         case .Banner:
             destinationVC = BannerView()
-            break;
+            break
+        case .CustomBanner:
+            destinationVC = CustomBannerView()
+            break
         case .Interstitial:
             destinationVC = InterstitialView()
-            break;
+            break
         case .Rewarded:
             destinationVC = RewardedView()
-            break;
+            break
         }
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }

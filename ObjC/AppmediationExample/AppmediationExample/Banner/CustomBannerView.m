@@ -1,23 +1,24 @@
 //
-//  BannerView.m
+//  CustomBannerView.m
 //  AppmediationExample
 //
-//  Created by Mert Celik on 1/14/19.
+//  Created by Mert Celik on 1/31/19.
 //  Copyright © 2019 appmediation. All rights reserved.
 //
 
-#import "BannerView.h"
+#import "CustomBannerView.h"
 #import <Appmediation/AMBanner.h>
 
-@interface BannerView ()<AMBannerDelegate>
-
+@interface CustomBannerView () <AMBannerDelegate>
+@property (nonatomic,strong) UIView* customView;
 @end
 
-@implementation BannerView
+@implementation CustomBannerView
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self createCustomView];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -33,11 +34,20 @@
     [self removeBanner];
 }
 
+- (void)createCustomView {
+    CGSize screenSize = [UIScreen mainScreen].bounds.size;
+    _customView = [[UIView alloc] initWithFrame:CGRectMake(0, screenSize.height/2, screenSize.width, 100)];
+    [_customView setBackgroundColor:[UIColor blackColor]];
+    [self.view addSubview:_customView];
+}
+
 #pragma mark AMBanner Implementation
 
 - (void)loadBanner {
     [AMBanner setDelegate:self];
-    [AMBanner showBannerSize:AMSize_320x50 position:Bottom rootViewController:self];
+    [_customView addSubview:[AMBanner sharedInstance]];
+    [AMBanner sharedInstance].frame = CGRectMake(0, 0, 320, 50);
+    [AMBanner loadAd];
 }
 
 - (void)removeBanner {

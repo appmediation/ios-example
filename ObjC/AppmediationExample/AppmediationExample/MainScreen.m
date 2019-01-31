@@ -8,6 +8,7 @@
 
 #import "MainScreen.h"
 #import "BannerView.h"
+#import "CustomBannerView.h"
 #import "InterstitialView.h"
 #import "RewardedView.h"
 
@@ -33,9 +34,12 @@
             [self navigateTo:Banner];
             break;
         case 1:
-            [self navigateTo:Interstitial];
+            [self navigateTo:CustomBanner];
             break;
         case 2:
+            [self navigateTo:Interstitial];
+            break;
+        case 3:
             [self navigateTo:Rewarded];
             break;
         default:
@@ -52,9 +56,11 @@
         case Banner:
             destinationVC = [[BannerView alloc] init];
             break;
+        case CustomBanner:
+            destinationVC = [[CustomBannerView alloc] init];
+            break;
         case Interstitial:
             destinationVC = [[InterstitialView alloc] init];
-            NSLog(@"navigateTo interstitial");
             break;
         case Rewarded:
             destinationVC = [[RewardedView alloc] init];

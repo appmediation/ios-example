@@ -17,6 +17,7 @@
 		CE430A8D21EC8237003D0DEA /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE430A8C21EC8237003D0DEA /* BannerView.m */; };
 		CE430A9121EC8FD9003D0DEA /* InterstitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE430A9021EC8FD9003D0DEA /* InterstitialView.m */; };
 		CE430A9521EC9227003D0DEA /* RewardedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE430A9421EC9227003D0DEA /* RewardedView.m */; };
+		CE6B798D2203173700ED971D /* CustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B798C2203173700ED971D /* CustomBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		CE430A9021EC8FD9003D0DEA /* InterstitialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialView.m; sourceTree = "<group>"; };
 		CE430A9321EC9227003D0DEA /* RewardedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardedView.h; sourceTree = "<group>"; };
 		CE430A9421EC9227003D0DEA /* RewardedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardedView.m; sourceTree = "<group>"; };
+		CE6B798B2203173700ED971D /* CustomBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBannerView.h; sourceTree = "<group>"; };
+		CE6B798C2203173700ED971D /* CustomBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBannerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				CE430A8B21EC8237003D0DEA /* BannerView.h */,
 				CE430A8C21EC8237003D0DEA /* BannerView.m */,
+				CE6B798B2203173700ED971D /* CustomBannerView.h */,
+				CE6B798C2203173700ED971D /* CustomBannerView.m */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				CE430A8A21EC7DE7003D0DEA /* MainScreen.m in Sources */,
 				CE430A8221E8F522003D0DEA /* main.m in Sources */,
 				CE430A9521EC9227003D0DEA /* RewardedView.m in Sources */,
+				CE6B798D2203173700ED971D /* CustomBannerView.m in Sources */,
 				CE430A7421E8F521003D0DEA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

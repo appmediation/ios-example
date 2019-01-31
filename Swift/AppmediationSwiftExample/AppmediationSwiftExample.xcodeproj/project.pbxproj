@@ -16,6 +16,7 @@
 		CE4F366A21ECBD8F001976F4 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F366921ECBD8F001976F4 /* BannerView.swift */; };
 		CE4F366C21ECC570001976F4 /* InterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F366B21ECC570001976F4 /* InterstitialView.swift */; };
 		CE4F366E21ECC719001976F4 /* RewardedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F366D21ECC719001976F4 /* RewardedView.swift */; };
+		CE6B798A2202E2FC00ED971D /* CustomBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B79892202E2FC00ED971D /* CustomBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE4F366921ECBD8F001976F4 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		CE4F366B21ECC570001976F4 /* InterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialView.swift; sourceTree = "<group>"; };
 		CE4F366D21ECC719001976F4 /* RewardedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedView.swift; sourceTree = "<group>"; };
+		CE6B79892202E2FC00ED971D /* CustomBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4F366921ECBD8F001976F4 /* BannerView.swift */,
+				CE6B79892202E2FC00ED971D /* CustomBannerView.swift */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4F366C21ECC570001976F4 /* InterstitialView.swift in Sources */,
+				CE6B798A2202E2FC00ED971D /* CustomBannerView.swift in Sources */,
 				CE4F366821ECBBFF001976F4 /* MainScreen.swift in Sources */,
 				CE430AA421ECB732003D0DEA /* AppDelegate.swift in Sources */,
 				CE4F366E21ECC719001976F4 /* RewardedView.swift in Sources */,
